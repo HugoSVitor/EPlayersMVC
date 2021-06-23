@@ -1,12 +1,15 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - EPlayersMVCEx</title>
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2faae0d38b.js" crossorigin="anonymous"></script>    <link rel="stylesheet" href="~/css/style.css" />
+    <script src="https://kit.fontawesome.com/2faae0d38b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/css/style.css" />
 </head>
+
 <body>
     <header>
         <div class="container cabecalho">
@@ -22,10 +25,20 @@
             </div>
             <nav id="menu">
                 <ul>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index" title="voltar para a página inicial">INÍCIO</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index"
+                            title="voltar para a página inicial">INÍCIO</a></li>
                     <li><a href="#horarios" title="Ir até a sessão de horários das partidas">HORÁRIOS</a></li>
                     <li><a href="#resultados" title="Ir até a sessão de resultados das partidas">RESULTADOS</a></li>
                     <li><a href="#noticias" title="Ir até a sessão de notícias">NOTÍCIAS</a></li>
+
+                    @if (ViewBag.UserName != null)
+                    {
+                        <li style="color: #fff">Olá @ViewBag.UserName</li>
+                        <li><a asp-area="" asp-controller="Login" asp-action="Logout">LOGOUT</a></li>
+                    }else
+                    {
+                        <li><a asp-area="" asp-controller="Login" asp-action="Index">Login</a></li>
+                    }
                     <li><a href="#" title="buscar conteudo no site"><i class="fas fa-search"></i></a></li>
                 </ul>
             </nav>
@@ -76,4 +89,5 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

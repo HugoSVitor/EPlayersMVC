@@ -42,8 +42,8 @@ namespace EPlayersMVCEx.Models
 
                 Jogador novojogador = new Jogador();
                 novojogador.IdJogador = int.Parse(linha[0]);
-                novojogador.IdEquipe = int.Parse(linha[1]);
-                novojogador.Nome = linha[2];
+                novojogador.IdEquipe = int.Parse(linha[2]);
+                novojogador.Nome = linha[1];
                 novojogador.Email = linha[3];
                 novojogador.Senha = linha[4];
 

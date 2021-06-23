@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carol\\Desktop\\EPlayersMVCEx\\EPlayersMVCEx.csproj": {}
+    "C:\\Users\\dev\\Desktop\\EPlayersMVCEx\\EPlayersMVC\\EPlayersMVCEx.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carol\\Desktop\\EPlayersMVCEx\\EPlayersMVCEx.csproj": {
+    "C:\\Users\\dev\\Desktop\\EPlayersMVCEx\\EPlayersMVC\\EPlayersMVCEx.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carol\\Desktop\\EPlayersMVCEx\\EPlayersMVCEx.csproj",
+        "projectUniqueName": "C:\\Users\\dev\\Desktop\\EPlayersMVCEx\\EPlayersMVC\\EPlayersMVCEx.csproj",
         "projectName": "EPlayersMVCEx",
-        "projectPath": "C:\\Users\\Carol\\Desktop\\EPlayersMVCEx\\EPlayersMVCEx.csproj",
-        "packagesPath": "C:\\Users\\Carol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carol\\Desktop\\EPlayersMVCEx\\obj\\",
+        "projectPath": "C:\\Users\\dev\\Desktop\\EPlayersMVCEx\\EPlayersMVC\\EPlayersMVCEx.csproj",
+        "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dev\\Desktop\\EPlayersMVCEx\\EPlayersMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Carol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
